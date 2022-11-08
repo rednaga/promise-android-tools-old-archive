@@ -109,7 +109,7 @@ jobs:
         with:
           ref: gh-pages
 
-      - name: Download docs
+      - name: Download docs artifact
         uses: actions/download-artifact@v1
         with:
           name: pages
